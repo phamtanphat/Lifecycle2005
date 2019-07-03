@@ -22,9 +22,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,Manhinh2Activity.class);
                 startActivity(intent);
+
             }
         });
     }
+    //But back trong android
+//    @Override
+//    public void onBackPressed() {
+//        super.onBackPressed();
+//    }
 
     @Override
     protected void onStart() {
